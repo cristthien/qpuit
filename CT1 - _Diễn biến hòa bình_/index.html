@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+    <body>
+     <div class="content">
+        
+     </div>   
+    </body>
+    <script>
+        let contentWrapper= document.querySelector('.content');
+        console.log(contentWrapper);
+        let htmls=' <h2 style="align-item:center"> vì một tương lại không học lại nhé các bạn</h2> ';
+        for( let i=1;i<=45;i++){
+            htmls+=`<img src="./img/${i}.png" alt="">`
+        }
+        contentWrapper.innerHTML=htmls;
+    </script>
+</html>

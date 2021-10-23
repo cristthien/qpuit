@@ -1,0 +1,13 @@
+body{
+    padding:0;
+    margin:0;
+}
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+img{
+    width: 100%;
+     margin:16px 0;
+}
